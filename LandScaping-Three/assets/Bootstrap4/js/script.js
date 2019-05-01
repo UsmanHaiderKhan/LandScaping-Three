@@ -88,8 +88,8 @@ $(function () {
 $(document).ready(function () {
 
     $('.loadMore').loadMoreResults({
-        displayedItems: 6,
-        showItems: 3
+        displayedItems: 9,
+        showItems: 5
     });
 
 
@@ -180,7 +180,7 @@ $(function () {
 });
 $(function () {
     $('.owl-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 0,
         dots: false,
         nav: true,
@@ -242,37 +242,23 @@ $(function () {
 
     });
 });
-//$(function () {
-//    $(window).scroll(function () {
-//        var scroll = $(window).scrollTop();
-//        if (scroll >= 100) {
-//            $("nav").addClass("fixed-top sleep nav-color");
-//            $("nav").css("background-color", "rgba(255, 255, 255,1)");
-//            $("nav").css("opacity", "1");
-
-//        } else {
-//            $("nav").removeClass("fixed-top sleep nav-color");
-//            $("nav").css("background-color", "rgba(255, 255, 255,0.749)");
-//            $("nav").css("opacity", "0.749");
-//        }
-//    });
-//});
-
-
 /*===================== Nav tabs active Function Script ======================*/
 
 /*===================== Another Load More Script ======================*/
-$(".no-display").slice(0, 6).show();
-$("#load-more").on('click', function (e) {
-    e.preventDefault();
-    $(".no-display:hidden").slice(0, 3).slideDown();
-    if ($(".no-display:hidden").length == 0) {
-        $("#load-more").fadeOut('slow');
-    }
-    $('html,body').animate({
-        scrollTop: $(this).offset().center
-    }, 1500);
+$(function () {
+    $(".no-display").slice(0, 9).show();
+    $("#load-more").on('click', function (e) {
+        e.preventDefault();
+        $(".no-display:hidden").slice(0, 5).slideDown();
+        if ($(".no-display:hidden").length == 0) {
+            $("#load-more").fadeOut('slow');
+        }
+        $('html,body').animate({
+            scrollTop: $(this).offset().center
+        }, 1500);
+    });
 });
+
 /*=====================Active Class Script ======================*/
 $(function () {
     $('.form-check-label').on('click',

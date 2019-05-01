@@ -26,7 +26,7 @@
             displayedItems: 4,
             showItems: 4,
             button: {
-                'class': 'btn-load-more mt-55',
+                'class': 'btn-load-more mt-55 flaticon-arrow-down-sign-to-navigate',
                 text: 'More Services'
             }
         };
