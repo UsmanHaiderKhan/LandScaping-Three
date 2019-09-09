@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 
@@ -20,7 +20,7 @@
 font-family: 'Dosis', sans-serif;
 
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -33,7 +33,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/*================================= 
+/*=================================
         Top Section Styling
   =================================*/
 #top-nav {
@@ -84,7 +84,7 @@ html, body {
         color: #000000;
     }
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -298,26 +298,34 @@ html, body {
     border: 1px solid #ffffff;
 }
 
-#btn-1 .flaticon-next:before {
-    font-size: 14px;
-    margin-right: 0px;
-    padding: 13px;
-    border-radius: 50%;
-    background: #232323;
-    color: #9fc246;
-    margin-left: 18px;
+#btn-1 {
+    margin-left: 6px;
 }
 
-#btn-2 .flaticon-next:before {
-    font-size: 14px;
-    margin-right: 0px;
-    padding: 13px;
-    border-radius: 50%;
-    background: #232323;
-    color: #9fc246;
-    margin-left: 18px;
+    #btn-1 .flaticon-next:before {
+        font-size: 14px;
+        margin-right: 0px;
+        padding: 13px;
+        border-radius: 50%;
+        background: #232323;
+        color: #9fc246;
+        margin-left: 18px;
+    }
+
+#btn-2 {
+    margin-left: 6px;
 }
-/*================================= 
+
+    #btn-2 .flaticon-next:before {
+        font-size: 14px;
+        margin-right: 0px;
+        padding: 13px;
+        border-radius: 50%;
+        background: #9fc246;
+        color: #232323;
+        margin-left: 18px;
+    }
+/*=================================
       About Us Section Styling
   =================================*/
 #about {
@@ -343,7 +351,7 @@ html, body {
     color: #6e6e6e;
     font-family: 'Font Bureau - HeronSans Regular';
 }
-/*================================= 
+/*=================================
        Service Section Styling
   =================================*/
 #services {
@@ -388,7 +396,7 @@ html, body {
     color: #9fc246;
     margin-left: 0px;
 }
-/*================================= 
+/*=================================
        Gallery Section Styling
   =================================*/
 #gallery {
@@ -408,6 +416,7 @@ html, body {
     }
 
     #gallery .garden-service-strip {
+        width: 100%;
         padding: 47px 0;
         background-size: cover;
         background-position: center;
@@ -524,7 +533,7 @@ html, body {
 .no-display {
     display: none;
 }
-/*================================= 
+/*=================================
        Blog Section Styling
   =================================*/
 .blog-bg-leaf {
@@ -642,7 +651,7 @@ html, body {
 #blog-bg-banner .card-hover:hover .card-desc {
     color: #f4f4f4;
 }
-/*================================= 
+/*=================================
        Contact Section Styling
   =================================*/
 #contact {
@@ -705,6 +714,7 @@ html, body {
     #contact ::placeholder {
         font-size: 14px;
         color: #f4f4f4;
+        text-transform: uppercase;
         font-weight: 400;
         font-family: 'Dosis', sans-serif;
     }
@@ -819,7 +829,7 @@ html, body {
     font-weight: 600;
     font-family: 'Dosis', sans-serif;
 }
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1502,8 +1512,8 @@ button:focus {
     }
 
     #gallery .btn-advice {
-        width: 173px;
-        height: 50px;
+        width: 187px;
+        height: 53px;
         font-size: 18px;
     }
 
@@ -1717,7 +1727,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 802px) {
     .float-right {
         float: unset !important;
     }
@@ -1793,7 +1803,7 @@ button:focus {
     }
 
     #gallery .btn-advice {
-        width: 173px;
+        width: 187px;
         height: 53px;
         font-size: 18px;
     }
@@ -1853,7 +1863,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .media-top-align {
         text-align: center;
     }
@@ -1985,7 +1995,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .sleep {
         padding: 0px 8px 0px 8px;
     }
@@ -2095,7 +2105,7 @@ button:focus {
 @media screen and (max-width: 411px) {
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #home .owl-carousel .owl-nav button.owl-next {
         right: -49px;
         bottom: 237px;
@@ -2116,7 +2126,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     #home .owl-carousel .owl-nav button.owl-prev {
         left: -23px;
         bottom: 232px;
@@ -2148,7 +2158,7 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .float-right {
         float: unset !important;
     }
@@ -2321,7 +2331,7 @@ button:focus {
 @media screen and (max-width: 731px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
+@media screen and (max-width: 668px) and (orientation: landscape) {
     #home .owl-carousel .owl-nav button.owl-next {
         right: -30px;
     }
